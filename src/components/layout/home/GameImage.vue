@@ -1,6 +1,6 @@
 <template>
     <div class="relative">
-        <img src="../../assets/img/wallpaperflare.com_wallpaper.jpg" class="object-cover w-full h-3/4" />
+        <img src="../../../assets/img/wallpaperflare.com_wallpaper.jpg" class="object-cover w-full h-3/4" />
         <!-- <button class="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             download now</button> -->
 

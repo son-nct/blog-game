@@ -11,7 +11,7 @@ const app = createApp(App)
 app.use(router);
 app.use(VueSmoothScroll , {
     duration : 400,
-    updateHistory : false
+    updateHistory : true
 })
 
 app.mount('#app')

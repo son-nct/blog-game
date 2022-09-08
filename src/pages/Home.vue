@@ -3,7 +3,7 @@
         <the-header />
         <slide-show />
         <about-us />
-        <download />
+        <game-image />
         <about-us />
         <the-footer />
     </div>
@@ -11,9 +11,9 @@
 
 <script>
 import TheHeader from '../components/layout/TheHeader.vue'
-import SlideShow from '../components/layout/SlideShow.vue'
-import AboutUs from '../components/layout/AboutUs.vue'
-import Download from '../components/layout/Download.vue'
+import SlideShow from '../components/layout/home/SlideShow.vue'
+import AboutUs from '../components/layout/home/AboutUs.vue'
+import GameImage from '../components/layout/home/GameImage.vue'
 import TheFooter from '../components/layout/TheFooter.vue'
 
 export default {
@@ -21,7 +21,7 @@ export default {
         TheHeader,
         SlideShow,
         AboutUs,
-        Download,
+        GameImage,
         TheFooter
     }
 }

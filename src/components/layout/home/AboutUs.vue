@@ -23,9 +23,9 @@
 </template>
 
 <script>
-import GameStore from '../../assets/img/game-store.svg'
-import Game from '../../assets/img/game.svg'
-import Connect from '../../assets/img/connect.svg'
+import GameStore from '../../../assets/img/game-store.svg'
+import Game from '../../../assets/img/game.svg'
+import Connect from '../../../assets/img/connect.svg'
 export default {
     data() {
         return {
@@ -51,10 +51,5 @@ export default {
             ]
         }
     },
-    methods: {
-        getPicture(name) {
-            return require('../assets/img/' + name);
-        }
-    }
 }
 </script>
