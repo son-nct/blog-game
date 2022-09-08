@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "tw-elements": "*",
+    "v-smooth-scroll": "*",
     "vue": "^3.2.37",
-    "vue-router": "^4.0.13"
+    "vue-router": "^4.0.13",
+    "vue2-smooth-scroll": "^1.6.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.0",
